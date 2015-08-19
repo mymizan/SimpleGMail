@@ -1,0 +1,37 @@
+
+
+/*===== General Styles =====*/
+table{
+	cursor: none;
+}
+tr{
+	cursor: pointer;
+	background-color: #f5f5f5;
+}
+td:nth-child(1),
+td:nth-child(2),
+td:nth-child(3){
+	width: 4%;
+	text-align: center;
+}
+td:nth-child(4){
+	width:25%;
+	text-align: left;
+}
+td:nth-child(5){
+	width:50%;
+	text-align: left;
+}
+td:nth-child(6){
+	width:13%;
+	text-align: center;
+}
+.row{
+	margin: 20px 0;
+}
+.marked{
+	background-color: yellow;
+}
+.col-sm-6.right{
+	text-align: right;
+}
